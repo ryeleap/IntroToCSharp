@@ -17,6 +17,7 @@ namespace smallHourProject
 
   class Program
   {
+    static bool _running = true;
     static int userInput;
     static string? input;
     static DateTime localDate = DateTime.Now;
@@ -35,13 +36,20 @@ namespace smallHourProject
             createTask();
             break;
           case 2:
-            // deleteTask();
+            removeTask();
             break;
           case 3:
-            // renameTask();
+            listTasks();
             break;
           case 4:
-            // repoTask();
+            renameTask();
+            break;
+          case 5:
+            repoTask();
+            break;
+          case 6:
+            _running = false;
+            Console.WriteLine("Goodbye!");
             break;
           default:
             Console.WriteLine("Invalid Input, reprompting");
@@ -68,17 +76,66 @@ namespace smallHourProject
       _tasks.Add(task);
     }
 
-    void removeTask(Task task)
+    static void removeTask()
     {
-
+      Console.WriteLine("What is the name of the task you wish to remove?");
+      string name = Console.ReadLine();
+      Task found = _tasks.Find(p => p.Name == name);
+      Console.WriteLine("Removing " + found);
+      _tasks.Remove(found);
     }
 
+    static void listTasks()
+    {
+      int count = 1;
+      for (int i = 0; i < _tasks.Count; i++)
+      {
+        Console.WriteLine(count + ". " + _tasks[i].Name + ", Priority " + _tasks[i].Priority);
+        count++;
+      }
+    }
+
+    static void renameTask()
+    {
+      try
+      {
+        Console.WriteLine("What is the name of the task you wish to rename?");
+        string name = Console.ReadLine();
+        Task found = _tasks.Find(p => p.Name == name);
+        Console.WriteLine("What would you like to rename it to?");
+        string rename = Console.ReadLine();
+        found.Name = rename;
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine("you stink (rename task)");
+      }
+    }
+    static void repoTask()
+    {
+      try
+      {
+        Console.WriteLine("What is the name of the task you wish to reprioritize?");
+        string name = Console.ReadLine();
+        Task found = _tasks.Find(p => p.Name == name);
+        Console.WriteLine("What would you like to reprioritize it to?");
+        int priority = Int32.Parse(Console.ReadLine());
+        found.Priority = priority;
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine("you stink (reprioritize task)");
+      }
+    }
 
     static void Main(string[] args)
     {
       Console.WriteLine("Welcome to my first C# Project :) sorry it sucks lol");
       Console.WriteLine("Current time is " + localDate);
-      PromptUser();
+      while (_running)
+      {
+        PromptUser();
+      }
     }
   }
 }
