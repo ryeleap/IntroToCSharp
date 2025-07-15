@@ -1,0 +1,14 @@
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\bin\Debug\net9.0\ConsoleAppToDo.exe
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\bin\Debug\net9.0\ConsoleAppToDo.deps.json
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\bin\Debug\net9.0\ConsoleAppToDo.runtimeconfig.json
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\bin\Debug\net9.0\ConsoleAppToDo.dll
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\bin\Debug\net9.0\ConsoleAppToDo.pdb
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.AssemblyInfoInputs.cache
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.AssemblyInfo.cs
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.csproj.CoreCompileInputs.cache
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.dll
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\refint\ConsoleAppToDo.dll
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.pdb
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.genruntimeconfig.cache
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ref\ConsoleAppToDo.dll
