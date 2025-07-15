@@ -12,3 +12,4 @@ C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0
 C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.pdb
 C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.genruntimeconfig.cache
 C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ref\ConsoleAppToDo.dll
+C:\Users\ripr5\devsrc\PersonalProjects\basicToDo\ConsoleAppToDo\obj\Debug\net9.0\ConsoleAppToDo.sourcelink.json
